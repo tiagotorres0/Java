@@ -1,0 +1,314 @@
+
+========================================================
+ questão 1
+
+class Main {
+  public static void main(String[] args) {
+    String nome = "tiago";
+    int num = 1357924;
+    double saldo = 13543.20;
+    System.out.println("o cliente "+ nome +" da conta "+ num +" tem o saldo de "+saldo);
+  }
+}
+========================================================
+ questão 2
+
+class Main {
+  public static void main(String[] args) {
+    String nome = "tiago";
+    String sexo = "masculino";
+    String cpf = "11122221332";
+    int idade = 18;
+    System.out.println("o aluno "+nome+" com o cpf "+cpf+" do sexo "+sexo+" tem "+idade+"  anos");
+  }
+} 
+========================================================
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);
+    String nome = entrada.nextLine();
+    
+  }
+} 
+ questão 3
+
+class Main {
+  public static void main(String[] args) {
+    String nome = "tiago";
+    String produto = "Pizza";
+    String endereco = "Rua do sol";
+    System.out.println("o cliente "+nome+" solicitou o produto "+produto+" para o endereço "+endereco);
+  }
+}
+========================================================
+ questão 4
+
+class Main {
+  public static void main(String[] args) {
+    String nome = "tiago";
+    int salario = 2000;
+    String sexo = "masculino";
+    int idade = 18;
+    String ec = "solteiro";
+    System.out.println("o funcionario "+ nome +" do sexo "+ sexo +" idade "+idade+" e estado civil "+ ec +" recebe "+ salario +" de salario");
+  }
+}
+=========================================================
+ questão 5
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Você é de que sexo?:");
+    String sexo = sc.nextLine();
+    System.out.println("Digite seu nome:");
+    String nome = sc.nextLine();
+    System.out.println("Digite seu cpf:");
+    long cpf = sc.nextLong();
+    System.out.println("você tem quantos anos?:");
+    int idade = sc.nextInt();
+    System.out.println("o aluno " + nome + " com cpf " + cpf +" do sexo "+ sexo + " tem " + idade + " anos.");
+    
+    sc.close();
+  }
+}
+=========================================================
+ questão 6
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Digite seu nome:");
+    String nome = sc.nextLine();
+    System.out.println("Qual produto voê deseja?:");
+    String produto = sc.nextLine();
+    System.out.println("Digite seu endereço:");
+    String endereco = sc.nextLine();
+    System.out.println("o cliente " + nome + " solicitou o produto " + produto +" para o endereço "+ endereco + ".");
+    sc.close();
+  }
+}
+============================================================
+ questão 7
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Digite seu nome:");
+    String nome = sc.nextLine();
+    System.out.println("Você é de que sexo?:");
+    String sexo = sc.nextLine();
+    System.out.println("Qual o seu estado civil?:");
+    String ec = sc.nextLine();
+    System.out.println("Qual a sua idade?:");
+    int idade = sc.nextInt();
+    System.out.println("Qual o seu salario?:");
+    Double salario = sc.nextDouble();
+    System.out.println("funcionario " + nome +" do sexo " + sexo + " idade " + idade +" e estado civil " + ec + " recebe " + salario + " de salario.");
+    
+    sc.close();
+  }
+}
+===========================================================
+ questão 8
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Digite um valor:");
+    Double num1 = sc.nextDouble();
+    System.out.println("Digite outro valor:");
+    Double num2 = sc.nextDouble();
+    Double soma = num1 + num2;
+    System.out.println("a soma de " + num1 + " com " + num2 + " é." + soma);
+    
+    sc.close();
+  }
+}
+===========================================================
+ questão 9
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Digite um valor:");
+    Double num1 = sc.nextDouble();
+    System.out.println("Digite outro valor:");
+    Double num2 = sc.nextDouble();
+    Double sub = num1 - num2;
+    System.out.println("a subtração de " + num1 + " com " + num2 + " é." + sub);
+    
+    sc.close();
+  }
+}
+===========================================================
+ questão 10
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Digite um valor:");
+    Double num1 = sc.nextDouble();
+    System.out.println("Digite outro valor:");
+    Double num2 = sc.nextDouble();
+    Double multip = num1 * num2;
+    System.out.println("a multiplicação de " + num1 + " com " + num2 + " é." + multip);
+    
+    sc.close();
+  }
+}
+===========================================================
+ questão 11
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Digite um valor:");
+    Double num1 = sc.nextDouble();
+    System.out.println("Digite outro valor:");
+    Double num2 = sc.nextDouble();
+    Double divi = num1 / num2;
+    System.out.println("a divisão de " + num1 + " com " + num2 + " é." + divi);
+    
+    sc.close();
+  }
+}
+===========================================================
+ questão 12
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Digite um valor:");
+    Double num1 = sc.nextDouble();
+    System.out.println("Digite outro valor:");
+    Double num2 = sc.nextDouble();
+    Double restodivi = num1 % num2;
+    System.out.println("a divisão de " + num1 + " com " + num2 + " é." + restodivi);
+    
+    sc.close();
+  }
+}
+============================================================
+ questão 13
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Digite seu nome:");
+    String nome = sc.nextLine();
+    System.out.println("Digite a primeira nota:");
+    Double nota1 = sc.nextDouble();
+    System.out.println("Digite a segunda nota:");
+    Double nota2 = sc.nextDouble();
+    Double media = (nota1  + nota2) /2;
+    System.out.println("o aluno " + nome + " obteve a media " + media);
+    
+    sc.close();
+  }
+}
+============================================================
+ questão 14
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Digite o primeiro salario:");
+    Double salario1 = sc.nextDouble();
+    System.out.println("Digite o segundo salario:");
+    Double salario2 = sc.nextDouble();
+    System.out.println("Digite o terceiro salario:");
+    Double salario3 = sc.nextDouble();
+    Double media = (salario1  + salario2 + salario3) /3;
+    System.out.println(" o salario medio da empresa é " + media);
+    
+    sc.close();
+  }
+}
+
+=============================================================
+ questão 16
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Digite a primeira nota:");
+    Double nota1 = sc.nextDouble();
+    System.out.println("Digite a segunda nota:");
+    Double nota2 = sc.nextDouble();
+    Double media = (nota1 + nota2) / 2;
+    if (media<=6.0){
+      System.out.println("o aluno foi Reprovado");
+    }else{
+      System.out.println(" o aluno foi aprovado");
+    }
+    
+    sc.close();
+  }
+}
+=================================
+ questão 17
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Digite a temperatura de ontem:");
+    Double temp1= sc.nextDouble();
+    System.out.println("Digite a temperatura de hoje:");
+    Double temp2 = sc.nextDouble();
+    if((temp1<20) &&(temp2<20)){
+      System.out.println("Vai chover");
+    }else if((temp1<20) &&(temp2>20)){
+      System.out.println("Não vai chover");
+    }else if((temp1>20) &&(temp2<20)){
+      System.out.println("Vai chover");
+    }else if((temp1>20) &&(temp2>20)){
+      System.out.println("Vai chover");
+    }
+    sc.close();
+  }
+}
+=======================================
+questão 18
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("quantos anos vocÊ tem?");
+    int idade= sc.nextInt();
+    if(idade>40){
+      System.out.println("Você está no grupo de risco");
+    }else{
+      System.out.println("Você não está no grupo de risco");
+    }
+    sc.close();
+  }
+}
